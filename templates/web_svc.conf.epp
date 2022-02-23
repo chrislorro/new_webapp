@@ -1,7 +1,6 @@
-
 # Ensure that Apache listens on port <%= $websvc_port %>
 Listen <%= $websvc_port %>
-<VirtualHost *:80>
+<VirtualHost *:8081>
     DocumentRoot /www/<%= $servicename %>
     ServerName www.<%= $servicename %>.com
 

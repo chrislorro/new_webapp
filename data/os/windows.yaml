@@ -1,0 +1,9 @@
+---
+my_webapp::app_user: Administrator
+my_webapp::web_package: apache-httpd
+my_webapp::web_service: apache
+my_webapp::config_path: C:/Users/Administrator/AppData/Roaming/Apache24/conf
+my_webapp::svc_owner: Administrator
+my_webapp::websvc_users: 
+  apache:
+    home: "C:/Users"

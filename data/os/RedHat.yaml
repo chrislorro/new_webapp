@@ -1,0 +1,11 @@
+---
+my_webapp::app_user: root
+my_webapp::web_package: httpd
+my_webapp::web_service: httpd
+my_webapp::config_path: /etc/httpd/conf
+my_webapp::svc_owner: root
+my_webapp::websvc_users: 
+  httpd:
+    home: /home
+    groups: linx_webapps
+    managehome: true

@@ -1,0 +1,12 @@
+---
+my_webapp::pkg_version: installed
+my_webapp::servicename: example
+my_webapp::http_config: httpd.conf
+my_webapp::listen_ip: 192.168.254.2
+my_webapp::websvc_port: 8080
+my_webapp::http_enable: true
+my_webapp::http_ensure: running
+my_webapp::ensure_vhost: true
+
+my_webapp::websvc_user_defaults: 
+  ensure: present
